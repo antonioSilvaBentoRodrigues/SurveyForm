@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato';
+    box-sizing: border-box;
+}
+
+
+body{
+    color: #ffff;
+    background-image: url("https://images.unsplash.com/photo-1572883454114-1cf0031ede2a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment:fixed ;
+    background-position: center;
+    height: 110vh;
+}
+
+#title, #description{
+    text-align: center;
+    color: black;
+}
+
+#survey-form{
+    margin: auto;
+    background-color: #0000008c;
+    min-height: 900px;
+    height: auto;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow:2px 2px 8px rgba(255, 255, 255, 0.3) ;
+}
+#survey-form:hover{
+    box-shadow:2px 2px 8px rgba(255, 255, 255, 0.6)
+}
+
+
+section{
+    margin:auto;
+    width: 450px;
+}
+
+input{
+    text-align: center;
+    font-size: 15px;
+    height: 2rem;
+    border-radius: 10px;
+    border:none;
+}
+
+#name-label, #email-label, #number-label, #dropdown-label, #textarea-label, #terms-label{
+    font-size: 24px;
+    margin-top: 28px;
+}
+
+.terms-container{
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio-container{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#radio-label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.radio-container #found-label{
+    font-size: 22px;
+    text-align: center;
+}
+
+.radio-container input{
+    margin-right: 20px;
+}
+
+#accept-label{
+    margin-right: 50px;
+}
+
+
+
+#dropdown{
+    height: 2rem;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    border:none;
+    
+}
+
+.name-section, .email-section, .age-section, .professional-section, .textarea-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-section{
+    margin-top: 30px;
+}
+
+.terms-container{
+    margin-top: 20px;
+}
+
+#textarea-label{
+    text-align: center;
+}
+
+
+#textarea{
+    width: 450px;
+    max-width: 450px;
+    min-width: 450px;
+    min-height: 300px;
+    
+}
+
+.submit-btn{
+    width: 200px;
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    color: #ffff;
+    background-color: #ffa909b2;
+    border-radius: 15px;
+    border:none;
+
+}
+
+.submit-btn:hover{
+    background-color: #ffa90969;
+    cursor:pointer;
+}
